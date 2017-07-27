@@ -3,6 +3,11 @@ What if I add random sleep in range from X to Y, how may it distribute Z events 
 
 ## example
 
+Given:
+
+- 600 events per second.
+- we want to add sleep $((RANDOM % 30))
+
 ``` shell
 python3 main.py --min 0 --max 30 --events 600
 0: 14
