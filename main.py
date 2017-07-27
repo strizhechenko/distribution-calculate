@@ -10,7 +10,7 @@ parser.add_argument('--max', type=int)
 parser.add_argument('--events', type=int)
 options = parser.parse_args()
 
-times = [randint(options.min, options.max) for _ in range(options.events)]
+times = [randint(options.min, options.max - 1) for _ in range(options.events)]
 distribution = Counter(times)
 
 for k, v in sorted(distribution.items()):
