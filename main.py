@@ -17,4 +17,5 @@ for k, v in sorted(distribution.items()):
     print("{0}: {1}".format(k, v))
 
 print("min:", min(dict(distribution).values()))
+print("avg:", int(sum(distribution.values())/len(distribution)))
 print("max:", max(dict(distribution).values()))
