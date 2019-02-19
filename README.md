@@ -41,5 +41,6 @@ python3 main.py --min 0 --max 30 --events 600
 28: 27
 29: 16
 min: 12
+avg: 20
 max: 31
 ```
